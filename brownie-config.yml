@@ -7,6 +7,7 @@ compiler:
     remappings:
       - '@chainlink=smartcontractkit/chainlink-brownie-contracts@0.2.1'
       - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.4.2'
+dotenv: .env
 networks:
   default: development
   development:
